@@ -10,7 +10,7 @@ bot = discord.Client()
 #async as they are running concurrently
 #await if there is something else to be done while waiting for value, it should go ahead and run
 
-token = "Nzg4NDczMzM5MjkwMDU4ODAy.X9kBBQ.Loel5xpImkv1tXQ0Edi7I28H2C4"
+token = "Token"
 
 @bot.event
 async def on_ready():
