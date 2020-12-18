@@ -62,7 +62,7 @@ def search_google(msg, message):
             print (j)
             yield response
 
-    save_search_data(message.author, query_keyword, j)
+        save_search_data(message.author, query_keyword, j)
 
 
 def get_recent_data(msg, message):
