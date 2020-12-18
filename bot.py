@@ -3,7 +3,7 @@ import discord
 import asyncio
 import os, random
 from googlesearch import search 
-from test_bot_db_utils import save_search_data, fetch_data 
+from bot_db_utils import save_search_data, fetch_data 
 
 bot = discord.Client()
 
